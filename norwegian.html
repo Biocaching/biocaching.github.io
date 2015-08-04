@@ -11,6 +11,13 @@
 
 		<meta name="description" content="" />
 
+		<script>
+			var language = window.navigator.userLanguage || window.navigator.language;
+			if (language != 'no' || language != 'nn' || language != 'nb') {
+				window.location = 'index.html';
+			}
+		</script>
+
 		<link href="http://fonts.googleapis.com/css?family=Roboto:400,300|Roboto+Slab:400,700" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="style.css" />
 	</head>
