@@ -71,6 +71,12 @@ nav ul li a {
   color: #333;
 }
 
+nav ul li a:hover,
+nav ul li a:active {
+  color: #333;
+  background-color: #476454;
+}
+
 nav img {
   height: 50px;
   float: right;
