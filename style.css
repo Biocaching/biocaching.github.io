@@ -222,8 +222,14 @@ article .text-col-two {
     display: none;
   }
 
-  nav img {
+  nav img[src="menu.svg"] {
     display: inline;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mobile-menu {
+    display: none;
   }
 }
 
