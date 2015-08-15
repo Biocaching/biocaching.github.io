@@ -204,6 +204,37 @@ article .text-col-two {
   background-size: cover;
 }
 
+@media only screen and (max-width: 900px) {
+  #desktop-ul {
+    display: none;
+  }
+
+  nav img[src="menu.svg"] {
+    display: inline;
+  }
+
+  header {
+    background: url(back1.jpg) no-repeat 25% center fixed;
+    background-size: cover;
+  }
+
+  .b-img {
+    background: url(back2.jpg) no-repeat 70% center fixed;
+    background-size: cover;
+  }
+
+  .back-img-two {
+    background: url(back3.jpg) no-repeat 25% center fixed;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .person {
     text-align: center;
@@ -214,22 +245,6 @@ article .text-col-two {
 
   .person div {
     width: 100% !important;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  #desktop-ul {
-    display: none;
-  }
-
-  nav img[src="menu.svg"] {
-    display: inline;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .mobile-menu {
-    display: none;
   }
 }
 
