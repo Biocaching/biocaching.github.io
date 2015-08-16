@@ -237,7 +237,7 @@ article .text-col-two {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 855px) {
   .person {
     text-align: center;
     margin: auto;
