@@ -1,8 +1,129 @@
-<!doctype html>
-<html>
-<head><title>Biocaching</title></head>
-<body>
-<h1>Biocaching</h1>
-<p>Hello, world!</p>
-</body>
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Biocaching</title>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Biocaching is an online game in which the objective is to identify and document observations of plants, animals and other life forms out in the field." />
+
+		<meta property="og:title" content="Biocaching" />
+		<meta property="og:description" content="Biocaching is an online game in which the objective is to identify and document observations of plants, animals and other life forms out in the field." />
+		<meta property="og:image" content="back3.jpg" />
+
+		<script>
+			var language = window.navigator.userLanguage || window.navigator.language;
+			if (language == 'no' || language == 'nn' || language == 'nb') {
+				window.location = 'norwegian.html';
+			}
+		</script>
+
+		<link href="http://fonts.googleapis.com/css?family=Roboto:400,300|Roboto+Slab:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav>
+			<h1>Biocaching</h1>
+			<ul id="desktop-ul">
+				<li><a href="#spill">THE GAME</a></li>
+				<li><a href="#bakgrunn">BACKGROUND</a></li>
+				<li><a href="#media">IN MEDIA</a></li>
+				<li><a href="#teamet">THE TEAM</a></li>
+				<li><a href="#kontakt">CONTACT</a></li>
+			</ul>
+			<img aria-role="button" aria-hidden="true" src="menu.svg" onclick="menuToggle()" />
+		</nav>
+		<nav id="menu" class="mobile-menu" aria-hidden="true">
+			<ul>
+				<li><a href="#spill" onclick="menuToggle()">THE GAME</a></li>
+				<li><a href="#bakgrunn" onclick="menuToggle()">BACKGROUND</a></li>
+				<li><a href="#media" onclick="menuToggle()">I MEDIA</a></li>
+				<li><a href="#teamet" onclick="menuToggle()">THE TEAM</a></li>
+				<li><a href="#kontakt" onclick="menuToggle()">CONTACT</a></li>
+			</ul>
+			<img aria-role="button" src="close.svg" onclick="menuToggle()" />
+		</nav>
+		<header aria-hidden="true">
+		</header>
+		<section class="spill" id="spill">
+			<article>
+				<h2>THE GAME</h2>
+				<div class="col-wrap">
+					<p class="text-col-one">All types of species have value in the game: plants, birds, mammals, insects, mushrooms, fishes; any species you come across. You start by taking a photo so that the species can be identified. An observation also includes the time and place and may optionally include other information, such as the number of individuals, a comment, gender, size, colour and age or stage. <br/ ><br />After the observation is submitted in the game, you are rewarded with points. Observations of common species give fewer points than observation of more rare species. Players may get additional points for the amount of information submitted, being the first to observe a species in an area, to have observed all species within a predefined group, or other achievements. Players will also be able so see and interact with other players' observations, through comments and likes, which in turn can provide points.</p>
+
+					<p class="text-col-two">The game can be played either with the Biocaching mobile app or by logging into the Biocaching web site. The mobile app will let you use the camera and the GPS of the mobile device so that the picture and time and location are automatically added to the observation. The player then identifies the species. It is also possible to use a higher quality camera, and submit these photographs through the Biocaching web site.<br/ ><br />Observations will be forwarded to national and international databases for biodiversity observations. As such playing the Biocaching game is a contribution to research and environment monitoring.</p>
+				</div>
+			</article>
+		</section>
+		<section class="bakgrunn" id="bakgrunn">
+			<article>
+				<h2>BACKGROUND</h2>
+					<p>The target audience of the Biocaching game is anybody who is interested in wildlife. Successfully identifying species is an important part of Biocaching, and while we provide in-game tools to do so, this also provides an incentive to seek more knowledge from other sources. To be successful in the game, one has to document as many (different) species as possible, and we think players will want to plan hikes and trips specifically to observe certain species. As such, Biocaching may become a new hobby that will get individuals out in the field and raise environmental awareness, all while gathering important data for science and management. It can be used by individuals or as a learning activity in organized groups like school classes and scout groups.</p>
+					<p>While Biocaching first and foremost is about having fun by learning, reporting and competing, there is a serious element to it. For both science and management dealing with changes in our environment, it is vital to have access to as much quality observations as possible. Since observations are documented with media files they can be quality controlled, and by openly sharing all generated data with the community through NBIC (Artsdatabanken), Biocaching can be a valuable source of information. For many users, this will be an additional reason to play the game.</p>
+					<p>The idea for Biocaching was conceived during hack4no 2015, the annual hackathon organized by the Norwegian public sector.</p>
+			</article>
+		</section>
+		<section aria-hidden="true" class="b-img"></section>
+		<section class="i-media" id="media">
+			<article>
+				<h2>IN MEDIA</h2>
+				<ul>
+					<li><a href="http://www.cw.no/artikkel/utvikling/hacking-pa-honefoss">Hacking på Hønefoss - Computer World</a></li>
+					<li><a href="https://kulturognaturreise.wordpress.com/2015/06/16/moro-med-apne-data/">Moro med åpne data - Kultur og Naturreise</a></li>
+					<li><a href="http://www.hack4.no/hack4/konkurransen/vinnerne-av-hack4no">Vinnerne av Hack4No - Hack4.no</a></li>
+					<li><a href="http://hack4.no/hack4/konkurransen/84-hack4no/99-gi-tein-og-biopin-it-gar-videre">Gi tein og BioPin.it går videre - Hack4.no</a></li>
+				</ul>
+			</article>
+		</section>
+		<section class="teamet" id="teamet">
+			<article>
+				<h2>THE TEAM</h2>
+				<div class="person">
+					<img src="albin_small.jpg" />
+					<div>
+						<h3>Albin Larsson</h3>
+						<p>Albin is currently studying Orienteering and Technology: informations and media technology at Nyköpings gymnasium in Sweden. He also freelances for both local and international clients. On his free time Albin practice orienteering and makes maps.</p>
+					</div>
+				</div>
+				<div class="person">
+					<img src="alice_davide_small.jpg" />
+					<div>
+						<h3>Alice Polenghi</h3>
+						<p>1707 – 10 January 1778), also known after his ennoblement as Carl von Linné (Swedish pronunciation: [ˈkɑːɭ ˈfɔnː lɪˈneː] ( listen)), was a Swedish botanist, physician, and zoologist, who laid the foundations for the modern biological naming scheme of binomial nomenclature.</p>
+					</div>
+				</div>
+				<div class="person">
+					<img src="bjorn_small.jpg" />
+					<div>
+						<h3>Bjørn Hjelle</h3>
+						<p>Bjørn has been a programmer and systems architect for years, for small and large organisations. He currently works for Acando Norway AS where he specialises in search technology. He enjoys being out in nature and learning about how species interact and how the processes in nature work.</p>
+					</div>
+				</div>
+				<div class="person">
+					<img src="alice_davide_small.jpg" />
+					<div>
+						<h3>Davide Rapoteze</h3>
+						<p>1707 – 10 January 1778), also known after his ennoblement as Carl von Linné (Swedish pronunciation: [ˈkɑːɭ ˈfɔnː lɪˈneː] ( listen)), was a Swedish botanist, physician, and zoologist, who laid the foundations for the modern biological naming scheme of binomial nomenclature.</p>
+					</div>
+				</div>
+				<div class="person">
+					<img src="http://fakeimg.pl/300/" />
+					<div>
+						<h3>Peter Bremer</h3>
+						<p>1707 – 10 January 1778), also known after his ennoblement as Carl von Linné (Swedish pronunciation: [ˈkɑːɭ ˈfɔnː lɪˈneː] ( listen)), was a Swedish botanist, physician, and zoologist, who laid the foundations for the modern biological naming scheme of binomial nomenclature.</p>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="kontakt" id="kontakt">
+			<article>
+				<h2>CONTACT</h2>
+				<p>E-mail: <a href="mailto:bjorn.hjelle@gmail.com">bjorn.hjelle@gmail.com</a></p>
+			</article>
+		</section>
+		<section aria-hidden="true" class="back-img-two"></section>
+
+		<script src="menu.js"></script>
+	</body>
 </html>

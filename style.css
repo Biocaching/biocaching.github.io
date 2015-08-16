@@ -1,0 +1,277 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+h2 {
+  margin: 0;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  font-size: 300%;
+  text-align: center;
+}
+
+header {
+  height: 70vh;
+  background: url(back1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  display: inline;
+  font-family: 'Roboto Slab', serif;
+  font-size: 200%;
+  font-weight: 300;
+  margin: 0;
+  line-height: 50px;
+  padding-left: 4px;
+  width: 30%;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+a,
+a:hover,
+a:active {
+  color: #FF8800;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: #FF8800;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style: none;
+  text-align: center;
+  width: calc(70% - 4px);
+}
+
+nav ul li {
+  float: right;
+  line-height: 50px;
+  width: 14%;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  color: #333;
+  background-color: #476454;
+}
+
+nav img {
+  height: 50px;
+  float: right;
+  display: none;
+}
+
+nav img:hover {
+  cursor: pointer;
+}
+
+nav img[src="close.svg"] {
+  position: fixed;
+  display: inline;
+  top: 0;
+  right: 0;
+  z-index: 50;
+}
+
+nav.mobile-menu {
+  height: 100vh;
+  width: 100%;
+  background-color: #FF8800;
+  z-index: 30;
+
+  display: none;
+}
+
+nav.mobile-menu ul {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav.mobile-menu ul li {
+  width: 100%;
+}
+
+article {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  width: 70%;
+}
+
+article .col-wrap {
+  display: inline-block;
+}
+
+article .text-col-one {
+  width: calc(50% - 10px);
+  float: left;
+}
+
+article .text-col-two {
+  width: calc(50% - 10px);
+  float: right;
+}
+
+.spill {
+  background-color: #FF8800;
+}
+
+.spill h2 {
+  color: white;
+}
+
+.bakgrunn {
+  background-color: #F7F6EE;
+}
+
+.b-img {
+  min-height: 70vh;
+  background: url(back2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.i-media {
+  text-align: center;
+}
+
+.i-media ul {
+  list-style: none;
+}
+
+.teamet {
+  background-color: #F7F6EE;
+}
+
+.teamet .person {
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+}
+
+.teamet img {
+  width: 150px;
+  border-radius: 100%;
+  max-height: 150px;
+}
+
+.teamet .person div {
+  width: calc(100% - 170px);
+  float: right;
+}
+
+.teamet h3 {
+  font-size: 200%;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+  margin: 0;
+}
+
+.kontakt {
+  background-color: #476454;
+  text-align: center;
+  color: white;
+}
+
+.kontakt h2 {
+  color: #FF8800;
+}
+
+.back-img-two {
+  min-height: 70vh;
+  background: url(back3.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 900px) {
+  #desktop-ul {
+    display: none;
+  }
+
+  nav img[src="menu.svg"] {
+    display: inline;
+  }
+
+  header {
+    background: url(back1.jpg) no-repeat 25% center fixed;
+    background-size: cover;
+  }
+
+  .b-img {
+    background: url(back2.jpg) no-repeat 70% center fixed;
+    background-size: cover;
+  }
+
+  .back-img-two {
+    background: url(back3.jpg) no-repeat 25% center fixed;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .person {
+    text-align: center;
+    margin: auto;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .person div {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  article .col-wrap {
+    display: inline-block;
+  }
+
+  article .text-col-one {
+    width: 100%;
+    float: none;
+  }
+
+  article .text-col-two {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h2 {
+    font-size: 210%;
+  }
+
+  h1 {
+    font-size: 170%;
+  }
+}
