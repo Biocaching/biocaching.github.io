@@ -25,6 +25,7 @@ header {
 h1, nav ul li {
   line-height: 70px;
 }
+
 h1 {
   display: inline;
   font-family: 'Roboto Slab', serif;
@@ -79,6 +80,7 @@ nav ul li a:active {
 
 nav img {
   height: 50px;
+  margin-top: 10px;
   float: right;
   display: none;
 }
