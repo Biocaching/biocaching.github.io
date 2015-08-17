@@ -20,6 +20,10 @@ h2 {
   margin: 0px 10px;
 }
 
+.menu li, .mobile-menu li, h2 {
+  text-transform: uppercase;
+}
+
 header {
   height: 70vh;
   background: url(back1.jpg) no-repeat center center fixed;
