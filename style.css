@@ -131,6 +131,22 @@ nav.mobile-menu ul li {
   margin: auto;
   width: 70%;
 }
+
+.embed {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 article {
   padding-top: 70px;
   padding-bottom: 50px;
