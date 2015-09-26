@@ -236,6 +236,11 @@ article .text-col-two {
   background-size: cover;
 }
 
+.facebook-img {
+  height: 13px;
+  padding-left: 5px;
+}
+
 @media only screen and (max-width: 1000px) {
   #desktop-ul {
     display: none;
