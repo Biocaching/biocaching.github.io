@@ -333,6 +333,7 @@ article .text-col-two {
   .back-img-two {
     height: 716.8px;
     background-size: 100% 25%;
+    background-position: top;
   }
 }
 
@@ -350,6 +351,7 @@ article .text-col-two {
   .back-img-two {
     height: 537.6px;
     background-size: 100% 25%;
+    background-position: top;
 }
 
 /*
@@ -366,5 +368,6 @@ article .text-col-two {
   .back-img-two {
     height: 350px;
     background-size: 100% 25%;
+    background-position: top;
   }
 }
