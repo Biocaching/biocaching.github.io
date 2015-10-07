@@ -326,14 +326,13 @@ article .text-col-two {
   nav.mobile-menu,
   nav.mobile-menu ul {
     height: 1024px;
-    background-size: 100% 105%;
   }
 
   header,
   .b-img,
   .back-img-two {
     height: 716.8px;
-    background-size: 100% 105%;
+    background-size: 100% 25%;
   }
 }
 
@@ -344,14 +343,13 @@ article .text-col-two {
   nav.mobile-menu,
   nav.mobile-menu ul {
     height: 768px;
-    background-size: 100% 105%;
   }
 
   header,
   .b-img,
   .back-img-two {
     height: 537.6px;
-    background-size: 100% 105%;
+    background-size: 100% 25%;
 }
 
 /*
@@ -367,6 +365,6 @@ article .text-col-two {
   .b-img,
   .back-img-two {
     height: 350px;
-    background-size: 100% 105%;
+    background-size: 100% 25%;
   }
 }
