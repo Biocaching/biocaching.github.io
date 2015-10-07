@@ -314,3 +314,55 @@ article .text-col-two {
     font-size: 170%;
   }
 }
+
+/*
+* Because iOS 7 has a buggy behavior:
+*/
+
+/*
+* iPad Mini 2, iPad Mini 3, iPad Mini 4, iPad 3, iPad 4, iPad Air, iPad Air 2 with portrait orientation.
+*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  nav.mobile-menu,
+  nav.mobile-menu ul {
+    height: 1024px;
+  }
+
+  header,
+  .b-img,
+  .back-img-two {
+    height: 716.8px;
+  }
+}
+
+/*
+* iPad Mini 2, iPad Mini 3, iPad Mini 4, iPad 3, iPad 4, iPad Air, iPad Air 2 with landscape orientation.
+*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+  nav.mobile-menu,
+  nav.mobile-menu ul {
+    height: 768px;
+  }
+
+  header,
+  .b-img,
+  .back-img-two {
+    height: 537.6px;
+  }
+}
+
+/*
+* iPhone 5, 5C, 5S, iPod Touch 5g
+*/
+@media all and (device-width: 320px) and (device-height: 528px) and (orientation:portrait) {
+  nav.mobile-menu,
+  nav.mobile-menu ul {
+    height: 500px;
+  }
+
+  header,
+  .b-img,
+  .back-img-two {
+    height: 350px;
+  }
+}
