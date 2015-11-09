@@ -28,6 +28,7 @@ h2 {
 header {
   height: 70vh;
   background: url(back1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 
@@ -182,6 +183,7 @@ article .text-col-two {
 #b-img {
   min-height: 70vh;
   background: url(back2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 
@@ -233,6 +235,7 @@ article .text-col-two {
 #back-img-two {
   min-height: 70vh;
   background: url(back3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 
@@ -252,16 +255,19 @@ article .text-col-two {
 
   header {
     background: url(back1.jpg) no-repeat 25% center fixed;
+    -webkit-background-size: cover;
     background-size: cover;
   }
 
   .b-img {
     background: url(back2.jpg) no-repeat 70% center fixed;
+    -webkit-background-size: cover;
     background-size: cover;
   }
 
   .back-img-two {
     background: url(back3.jpg) no-repeat 25% center fixed;
+    -webkit-background-size: cover;
     background-size: cover;
   }
 }
