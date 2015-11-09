@@ -255,20 +255,17 @@ article .text-col-two {
 
   header {
     background: url(back1.jpg) no-repeat 25% center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background-size: 100% 100%;
   }
 
   .b-img {
     background: url(back2.jpg) no-repeat 70% center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background-size: 100% 100%;
   }
 
   .back-img-two {
     background: url(back3.jpg) no-repeat 25% center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background-size: 100% 100%;
   }
 }
 
