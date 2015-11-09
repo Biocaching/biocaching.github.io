@@ -65,7 +65,7 @@
 			</ul>
 			<img aria-role="button" src="close.svg" onclick="menuToggle()" />
 		</nav>
-		<header aria-hidden="true">
+		<header aria-hidden="true" id="b-image-header">
 		</header>
 		<section class="spill" id="spill">
 			<article>
@@ -83,7 +83,7 @@
 					</div>
 			</article>
 		</section>
-		<section aria-hidden="true" class="b-img"></section>
+		<section aria-hidden="true" id="b-img"></section>
 		<section class="i-media" id="media">
 			<article>
 				<h2>In media</h2>
@@ -139,7 +139,7 @@
 				</div>
 			</article>
 		</section>
-		<section aria-hidden="true" class="back-img-two"></section>
+		<section aria-hidden="true" id="back-img-two"></section>
 		<section class="kontakt" id="kontakt">
 			<article>
 				<h2>Contact</h2>
@@ -148,6 +148,7 @@
 		</section>
 
 		<script src="menu.js"></script>
+		<script src="viewport-units-buggyfill.js"></script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

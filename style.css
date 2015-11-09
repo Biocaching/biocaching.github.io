@@ -179,7 +179,7 @@ article .text-col-two {
   background-color: #F7F6EE;
 }
 
-.b-img {
+#b-img {
   min-height: 70vh;
   background: url(back2.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -230,7 +230,7 @@ article .text-col-two {
   color: #FF8800;
 }
 
-.back-img-two {
+#back-img-two {
   min-height: 70vh;
   background: url(back3.jpg) no-repeat center center fixed;
   background-size: cover;
