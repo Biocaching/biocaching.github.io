@@ -21,7 +21,9 @@ h2 {
   margin: 0px 10px;
 }
 
-.menu li, .mobile-menu li, h2 {
+.menu li,
+.mobile-menu li,
+h2 {
   text-transform: uppercase;
 }
 
@@ -114,7 +116,6 @@ nav.mobile-menu {
   width: 100%;
   background-color: #FF8800;
   z-index: 30;
-
   display: none;
 }
 
@@ -254,19 +255,19 @@ article .text-col-two {
   }
 
   header {
-    background: url(back1.jpg) no-repeat 25% center fixed;
+    background: url(back1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
   }
 
   .b-img {
-    background: url(back2.jpg) no-repeat 70% center fixed;
+    background: url(back2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
   }
 
   .back-img-two {
-    background: url(back3.jpg) no-repeat 25% center fixed;
+    background: url(back3.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
   }
