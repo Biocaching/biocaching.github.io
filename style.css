@@ -28,7 +28,6 @@ h2 {
 }
 
 header {
-  position: relative;
   height: 70vh;
   width: 100%;
   background: url(back1.jpg) no-repeat center center fixed;
@@ -184,7 +183,6 @@ article .text-col-two {
 }
 
 #b-img {
-  position: relative;
   min-height: 70vh;
   width: 100%;
   background: url(back2.jpg) no-repeat center center fixed;
@@ -238,7 +236,6 @@ article .text-col-two {
 }
 
 #back-img-two {
-  position: relative;
   min-height: 70vh;
   width: 100%;
   background: url(back3.jpg) no-repeat center center fixed;
